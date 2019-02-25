@@ -1,0 +1,15 @@
+
+https://github.com/Vincit/spring-boot-word-to-html-example
+
+1)mvn clean install
+
+2)mvn spring-boot:run
+
+3)http://localhost:8080/api/word-to-html          (POST)
+
+  a)Headers
+    Content-Type      multipart/form-data
+	
+  b)Body
+    in KEY column enter file and select File from select box
+	in VALUE column click on Choose Files button and browse the MSWord file
